@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+  <meta name="theme-color" content="#160d0b" />
+  <meta name="description" content="روایت یک آشنایی؛ دعوت‌نامه عروسی" />
+  <title>قصه‌ی ما</title>
+  <link rel="preload" href="assets/noto-fa.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/childhood-girl.webp" as="image">
+  <link rel="preload" href="assets/childhood-boy.webp" as="image">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="mobile-shell">
+    <div class="noise" aria-hidden="true"></div>
+    <div class="progress" aria-hidden="true"><i></i></div>
+
+    <header class="topbar">
+      <button class="icon-button" id="musicButton" type="button" aria-label="پخش یا توقف موسیقی">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13M9 9l11-2M6.5 21C4.6 21 3 19.9 3 18.5S4.6 16 6.5 16 10 17.1 10 18.5 8.4 21 6.5 21Zm11-2c-1.9 0-3.5-1.1-3.5-2.5s1.6-2.5 3.5-2.5 3.5 1.1 3.5 2.5-1.6 2.5-3.5 2.5Z"/></svg>
+      </button>
+      <div class="chapter-indicator"><b id="chapterNo">۰۰</b><span id="chapterName">آغاز</span></div>
+    </header>
+
+    <main>
+      <section class="hero chapter" data-name="آغاز" data-no="۰۰">
+        <div class="hero-glow"></div>
+        <svg class="hero-ornament" viewBox="0 0 390 844" aria-hidden="true">
+          <path d="M195 50C142 87 101 128 84 183c-20 65-8 131 27 188 24 39 58 72 84 109 26-37 60-70 84-109 35-57 47-123 27-188-17-55-58-96-111-133Z"/>
+          <path d="M195 793c53-37 94-78 111-133 20-65 8-131-27-188-24-39-58-72-84-109-26 37-60 70-84 109-35 57-47 123-27 188 17 55 58 96 111 133Z"/>
+        </svg>
+        <div class="hero-copy">
+          <span class="eyebrow">یک دعوت، از قلب یک قصه</span>
+          <h1><span data-config="brideName">نام عروس</span><i>&amp;</i><span data-config="groomName">نام داماد</span></h1>
+          <p>بعضی مسیرها جدا آغاز می‌شوند،<br>تا درست در زمان خودش به هم برسند.</p>
+        </div>
+        <div class="scroll-cue"><span>قصه را ورق بزن</span><i></i></div>
+      </section>
+
+      <section class="story chapter childhood" data-name="کودکی" data-no="۰۱">
+        <div class="sticky-scene">
+          <div class="split split-a"><img src="assets/childhood-girl.webp" alt="دختری در سال‌های کودکی" /></div>
+          <div class="split split-b"><img src="assets/childhood-boy.webp" alt="پسری در سال‌های کودکی" /></div>
+          <div class="soft-wipe"></div>
+          <div class="stage-copy copy-bottom">
+            <span class="kicker">فصل اول · کودکی</span>
+            <h2>دو دنیای کوچک،<br><em>دو رؤیای بزرگ</em></h2>
+            <p>هنوز همدیگر را نمی‌شناختند؛<br>اما زندگی آرام‌آرام قصه را می‌نوشت.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story chapter careers" data-name="مسیر" data-no="۰۲">
+        <div class="sticky-scene">
+          <div class="career-card teacher"><img src="assets/teacher.webp" alt="معلم" /><span>آموختن</span></div>
+          <div class="career-card engineer"><img src="assets/engineer.webp" alt="مهندس عمران" /><span>ساختن</span></div>
+          <div class="gold-thread" aria-hidden="true"><i></i></div>
+          <div class="stage-copy copy-center">
+            <span class="kicker">فصل دوم · مسیر</span>
+            <h2>یکی روشنیِ دانستن،<br>یکی جسارتِ ساختن</h2>
+            <p>سال‌ها گذشت و هرکدام راه خودش را پیدا کرد.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story chapter meeting" data-name="آشنایی" data-no="۰۳">
+        <div class="sticky-scene">
+          <div class="meet-person meet-bride"><img src="assets/meeting-bride.webp" alt="عروس در روز آشنایی" /></div>
+          <div class="meet-person meet-groom"><img src="assets/meeting-groom.webp" alt="داماد در روز آشنایی" /></div>
+          <div class="sunset"></div>
+          <div class="petals" aria-hidden="true"></div>
+          <div class="stage-copy copy-top">
+            <span class="kicker">فصل سوم · آشنایی</span>
+            <h2>و ناگهان،<br><em>جهان کوچک‌تر شد</em></h2>
+            <p>دو مسیر، در یک لحظه‌ی ساده به هم رسیدند.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story chapter wedding" data-name="پیوند" data-no="۰۴">
+        <div class="sticky-scene">
+          <img class="wedding-image" src="assets/wedding-pair.webp" alt="عروس و داماد در جشن عروسی" />
+          <div class="wedding-curtain left"></div><div class="wedding-curtain right"></div>
+          <div class="sparkles" aria-hidden="true"></div>
+          <div class="stage-copy copy-bottom wedding-copy">
+            <span class="kicker">فصل چهارم · پیوند</span>
+            <h2>این قصه،<br><em>«ما» شد</em></h2>
+            <p>و حالا دوست داریم آغاز زندگی‌مان را کنار شما جشن بگیریم.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="invitation chapter" data-name="دعوت" data-no="۰۵">
+        <div class="invitation-head">
+          <span class="eyebrow">با افتخار دعوتتان می‌کنیم</span>
+          <h2><span data-config="brideName">نام عروس</span><i>&amp;</i><span data-config="groomName">نام داماد</span></h2>
+          <p>برای ثبت یک شب به‌یادماندنی در کنار عزیزترین‌ها</p>
+        </div>
+
+        <div class="countdown" aria-label="شمارش معکوس مراسم">
+          <div><b data-count="days">ــ</b><span>روز</span></div>
+          <i>:</i><div><b data-count="hours">ــ</b><span>ساعت</span></div>
+          <i>:</i><div><b data-count="minutes">ــ</b><span>دقیقه</span></div>
+        </div>
+        <p class="countdown-hint" id="countdownHint">تاریخ مراسم را در فایل تنظیمات وارد کنید</p>
+
+        <div class="details-card">
+          <div class="detail"><svg viewBox="0 0 24 24"><path d="M7 3v3m10-3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v14H4V6a1 1 0 0 1 1-1Z"/></svg><div><span>تاریخ و ساعت</span><strong data-config="dateLabel">تاریخ مراسم</strong><small data-config="timeLabel">ساعت مراسم</small></div></div>
+          <div class="detail"><svg viewBox="0 0 24 24"><path d="M12 21s7-6 7-12a7 7 0 1 0-14 0c0 6 7 12 7 12Zm0-9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg><div><span>میزبان حضورتان هستیم در</span><strong data-config="venue">نام محل برگزاری</strong><small data-config="address">نشانی مراسم</small></div></div>
+        </div>
+
+        <a class="primary-button" id="mapButton" href="#" target="_blank" rel="noopener"><span>مشاهده روی نقشه</span><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></a>
+
+        <div class="closing-mark"><span>به امید دیدار شما</span><b>♡</b><small>این صفحه با عشق ساخته شده است</small></div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <audio id="music" preload="none" loop src="assets/music.mp3"></audio>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
